@@ -1,0 +1,26 @@
+git config --global user.name "JMT"
+git config --global user.email "josepmtapia@gmail.com"
+git config --list
+git status -s
+git add nombre_archivo
+
+para ver los remotos
+git remote -v
+
+no global , para porjecte concret
+git config user.email "josepmtapia@gmail.com"
+
+
+
+
+https://gist.github.com/cgonzalezdai/cc33db72a6fe5178637aabb562eae35c
+
+git init
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+
+git push -u origin master

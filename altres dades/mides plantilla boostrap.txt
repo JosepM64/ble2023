@@ -1,0 +1,12 @@
+Header 1900 x 1250
+footer 1024 x 147
+
+mides imatges swing bands 800x533
+mides imatge schedule petites 200x200
+
+colors
+rgb(184,204,223);
+rgb(236,234,233);
+rgb(252,250,249);
+rgb(234,220,223);
+rgb(212,223,232);
