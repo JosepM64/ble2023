@@ -29,6 +29,10 @@ git push -u origin master
 mirem les dues últimes entrades
 $ git log -p -2
 
+per veure sols la info linea a linea
+
+git log --oneline
+
 ******************
 per clonar un repositori remot en local (compte amb el default branch)
 https://www.jcchouinard.com/clone-github-repository-on-windows/
