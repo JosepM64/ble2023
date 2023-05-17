@@ -4,8 +4,8 @@ git config --list
 git status -s
 git add nombre_archivo
 
-para ver los remotos
-git remote -v
+para ver los directorios remotos
+git remote -v 
 
 no global , para porjecte concret
 git config user.email "josepmtapia@gmail.com"
@@ -19,8 +19,28 @@ git init
 
 git add .
 
-git commit -m "first commit"
+git commit -m "first commit"git remote -v
 
 git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
 
 git push -u origin master
+
+**********************
+mirem les dues últimes entrades
+$ git log -p -2
+
+******************
+per clonar un repositori remot en local (compte amb el default branch)
+https://www.jcchouinard.com/clone-github-repository-on-windows/
+
+
+*****************
+interessant diseny
+https://refactoring.guru/es/design-patterns/classification
+******************************
+https://www.cpubenchmark.net/compare/3204vs3421/Intel-Pentium-Silver-N5000-vs-AMD-Ryzen-5-3500U
+
+**********************
+C:\xampp\php>php -S localhost:8001
+
+
