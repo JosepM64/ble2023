@@ -43,7 +43,9 @@ M  lib/simplegit.rb
 ?? LICENSE.txt
 
 Los archivos nuevos que no están rastreados tienen un ?? a su lado, los archivos que están preparados tienen una A y los modificados una M. El estado aparece en dos columnas - la columna de la izquierda indica el estado preparado y la columna de la derecha indica el estado sin preparar. Por ejemplo, en esa salida, el archivo README está modificado en el directorio de trabajo pero no está preparado, mientras que lib/simplegit.rb está modificado y preparado. El archivo Rakefile fue modificado, preparado y modificado otra vez por lo que existen cambios preparados y sin preparar.
-
+************
+Añadiendo la opción -a al comando git commit harás que Git prepare automáticamente todos los archivos rastreados antes de confirmarlos, ahorrándote el paso de git add: 
+git commit -a -m "comentari"
 
 ******************
 per clonar un repositori remot en local (compte amb el default branch)
