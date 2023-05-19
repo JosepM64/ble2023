@@ -55,8 +55,6 @@ https://www.jcchouinard.com/clone-github-repository-on-windows/
 *****************
 interessant diseny
 https://refactoring.guru/es/design-patterns/classification
-******************************
-https://www.cpubenchmark.net/compare/3204vs3421/Intel-Pentium-Silver-N5000-vs-AMD-Ryzen-5-3500U
 
 **********************
 C:\xampp\php>php -S localhost:8001
