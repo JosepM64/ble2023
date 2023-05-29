@@ -3,6 +3,7 @@ git config --global user.email "josepmtapia@gmail.com"
 git config --list
 git status -s
 git add nombre_archivo
+git log
 
 para ver los directorios remotos
 git remote -v 
@@ -19,24 +20,27 @@ git init
 
 git add .
 
-git commit -m "first commit"git remote -v
+git commit -m "first commit"
 
 git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
 
 git push -u origin master
 
-**********************
+**********************git c
 mirem les dues últimes entrades
 $ git log -p -2
 
 per veure sols la info linea a linea
 
-git log --oneline
+git log --oneline --graph
 
 ***********************
+para bajar los cambios
+git pullgit 
+***********
 
 $ git status -s
- M READMEgit push 
+ M README
 MM Rakefile
 A  lib/git.rb
 M  lib/simplegit.rb
@@ -48,6 +52,10 @@ Añadiendo la opción -a al comando git commit harás que Git prepare automátic
 git commit -a -m "comentari"
 
 ******************
+git checkout primeros 5 o 6 digitos
+git checkout master
+
+******************
 per clonar un repositori remot en local (compte amb el default branch)
 https://www.jcchouinard.com/clone-github-repository-on-windows/
 
@@ -56,9 +64,11 @@ https://www.jcchouinard.com/clone-github-repository-on-windows/
 interessant diseny
 https://refactoring.guru/es/design-patterns/classification
 
-*******************
-https://www.atlassian.com/es/git/tutorials/inspecting-a-repository
 **********************
 C:\xampp\php>php -S localhost:8001
+******
+
+para borrar todas las carpetas de forma responsive
+rm -rf 
 
 
